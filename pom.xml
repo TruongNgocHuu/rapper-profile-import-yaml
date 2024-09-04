@@ -31,7 +31,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<classifier>mule-appication-example</classifier>
+					<classifier>mule-plugin</classifier>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -98,9 +98,9 @@
 
 	<repositories>
 		<repository>
-			<id>anypoint-exchange-v2</id>
+			<id>anypoint-exchange-v3</id>
 			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
@@ -125,9 +125,9 @@
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>anypoint-exchange-v2</id>
+			<id>anypoint-exchange-v3</id>
 			<name>Corporate Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/630c7892-050b-4d0b-a901-5e43252e4318/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/630c7892-050b-4d0b-a901-5e43252e4318/maven</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
