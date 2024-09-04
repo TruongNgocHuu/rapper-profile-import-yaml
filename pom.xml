@@ -4,7 +4,7 @@
 
 	<groupId>630c7892-050b-4d0b-a901-5e43252e4318</groupId>
 	<artifactId>rapper-import-raml</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
 	<name>rapper-import-raml</name>
@@ -30,9 +30,9 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-<!-- 				<configuration> -->
-<!-- 					<classifier>custom</classifier> -->
-<!-- 				</configuration> -->
+				<configuration>
+					<classifier>custom</classifier>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
