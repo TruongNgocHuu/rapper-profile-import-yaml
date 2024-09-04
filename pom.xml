@@ -31,7 +31,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<classifier>custom</classifier>
+					<classifier>mule-appication-example</classifier>
 				</configuration>
 			</plugin>
 			<plugin>
